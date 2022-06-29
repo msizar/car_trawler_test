@@ -11,3 +11,157 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family:  'Quicksand', sans-serif;
+  line-height: 1.5;
+}
+body {
+  padding: 0 7%;
+  margin: 2rem;
+  color: dimgray;
+}
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+
+small {
+  font-size: 1rem;
+}
+.thumbnail {
+  width: 4rem;
+  height: 4rem;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25rem);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 4rem;
+
+  justify-content: space-evenly;
+
+}
+.card {
+
+  /* border: 1px solid gray;
+  border-radius: 3px; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  padding: 2rem;
+}
+.card:hover {
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+}
+p {
+  text-align: left;
+  color: dimgray;
+}
+.fa-heart {
+  color: salmon;
+  z-index: 10;
+  position: absolute;
+  font-size: 3rem;
+  right: 7px;
+  top: 7px;
+}
+.fa-heart:active,
+.fa-heart:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.fa-star {
+  color: teal;
+  margin: 5px 5px 5px 0;
+}
+.cardRating {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.cardTitle {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  text-align: initial;
+}
+
+.cardTitle span:first-child {
+  padding-left: 0rem;
+}
+
+.cardTitle span {
+  padding-left: .5rem;
+}
+.cardBody {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: .5rem 0 .5rem;
+}
+.cardTotal {
+  font-weight: 800;
+  color: #464545;
+}
+.new {
+  margin: 0 1rem;
+  color: #fff;
+  background-color: teal;
+  line-height: 1;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 10%;
+}
+.header {
+  border-bottom: 1px solid teal;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.inputBox {
+  border-radius: 5px;
+  width: 20%;
+  border: 1px solid teal;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+.inputBox::-webkit-input-placeholder {
+  font-size: 2rem;
+  padding: 1rem;
+  margin: auto;
+}
+button {
+  color: #fff;
+  background-color: crimson;
+}
+
+.sortSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 2rem;
+}
+
+.filters {
+  display: flex;
+}
+
