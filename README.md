@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Car trawler Test For Devs
+  `This project was built on react v18 and node 14 or higher version`
+1. Run command to clone repo : $ git clone repo : https://github.com/msizar/car_trawler_test.git
+2. Cd into project and run: $ yarn or $ npm install
+3. Go to link http://localhost:3000 on your browser
 ## Available Scripts
 
 In the project directory, you can run:
@@ -30,10 +36,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-### Car trawler Test For Devs
-  `This project was built on react v18 and node 14 or higher version`
-1. Run command to clone repo : $ git clone repo : https://github.com/msizar/car_trawler_test.git
-2. Cd into project and run: $ yarn or $ npm install
-3. Go to link http://localhost:3000 on your browser
+
 
 
