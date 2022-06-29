@@ -1,0 +1,1 @@
+export const SORT_TYPES = ['A-Z','Z-A','High Price', 'Low Price']
