@@ -1,0 +1,13 @@
+form {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#rating-filter {
+  color: white;
+  padding: 5px;
+  background: dimgray;
+  border: none;
+  cursor: pointer;
+}
